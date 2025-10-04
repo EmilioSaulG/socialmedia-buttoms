@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redes Sociales</title>
+
+  <!-- Importar Font Awesome (iconos) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    :root {
+      --neon-green: #39ff14;
+      --text-dim: #ccc;
+      --transition: 0.3s ease-in-out;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #111;
+    }
+
+    .social-links {
+      display: flex;
+      gap: 15px;
+    }
+
+    .social-link {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: #009900;
+      color: var(--text-dim);
+      font-size: 1.5rem;
+      transition: var(--transition);
+      border: 1px solid #00ffff;
+      text-decoration: none;
+    }
+
+    .social-link:hover {
+      background: var(--neon-green);
+      color: #009900;
+      transform: translateY(-8px);
+      box-shadow: 0 10px 25px #98ff98;
+      border-color: var(--neon-green);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="social-links">
+    <a href="https://github.com/EmilioSaulG" class="social-link"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/emilio-romero-916471376" class="social-link"><i class="fab fa-linkedin"></i></a> 
+    <a href="https://www.instagram.com/emilio_saul?igsh=MTBxenQ2b29qMm96Zw%3D%3D&utm_source=qr" class="social-link"><i class="fab fa-instagram"></i></a>
+    <a href="https://pin.it/tsKKpEN0u" class="social-link"><i class="fab fa-pinterest"></i></a>    
+  </div>
+
+</body>
+</html>
